@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Example</title>
+    <style>
+        /* Styles for the button container */
+        .button-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        /* Button styles (customize as needed) */
+        button {
+            background-color: #e0218a;
+            color: pink;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="toggle-button">Toggle</button>
+        <button class="duplicate-button">Duplicate</button>
+        <button class="delete-button">Delete</button>
+        <button class="details-button">Details</button>
+        <button class="rename-button">Rename</button>
+    </div>
+
+    <!-- Include the card component -->
+    <card-component header="Barbie" image-url="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRiaMsHYpdf80moiUHsYEMWN_RR2O0jagD3Nu73-5VBYYrm3uCN" text="Cool movie!" hidden-text="Go watch the movie maybe"></card-component>
+
+    <script src="src/my-card-wk6.js"></script>
+</body>
+</html>
